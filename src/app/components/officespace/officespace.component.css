@@ -1,0 +1,38 @@
+/* optimal-spaces.component.scss */
+.icon-container {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card {
+    transition: transform 0.3s ease;
+    
+    &:hover {
+      transform: translateY(-5px);
+    }
+  }
+  .margin-end {
+    margin-left: 5rem; /* or any value you want */
+  }
+  .img-fluid{
+    width: 80%;
+    font-size: bold;
+    
+  }
+  .btn{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+    background-color: rgb(80, 187, 187);
+    cursor: not-allowed;
+  }
+  .btn:hover{
+    background-color: darkcyan;
+  }
+  .btn:disabled{
+    background-color: lightgray;
+    cursor: not-allowed;
+}

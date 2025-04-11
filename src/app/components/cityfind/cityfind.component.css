@@ -1,0 +1,19 @@
+/* optimal-spaces.component.scss */
+.icon-container {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card {
+    transition: transform 0.3s ease;
+    
+    &:hover {
+      transform: translateY(-5px);
+    }
+  }
+  .margin-end {
+    margin-left: 3rem; /* or any value you want */
+  }
