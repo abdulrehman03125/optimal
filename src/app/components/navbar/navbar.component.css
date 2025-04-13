@@ -59,3 +59,37 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+  
+
+  .menu-wrapper .submenu {
+    display: none;
+    position: absolute;
+    top: 100%; /* directly under the menu icon */
+    right: 0;
+    min-width: 150px;
+    z-index: 999;
+    padding: 0.5rem 0;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu-wrapper:hover .submenu {
+    display: block;
+  }
+
+  ::ng-deep .mat-menu-panel.custom-menu {
+    min-width: 220px;
+    max-height: 300px;
+    overflow-y: auto;
+    border-radius: 8px;
+  }
+  
+  ::ng-deep .mat-menu-item {
+    font-size: 14px;
+  }
+  
