@@ -15,13 +15,13 @@ export class FindofficeComponent {
   uses = [
     { name: 'Office', locations: ['User', 'Brooklyn', 'Queens', 'Other'] },
     { name: 'Retail', locations: ['Manhattan', 'Brooklyn', 'Queens'] },
-    { name: 'Medical', locations: ['NoMad','Hudson Yards','Chelsea','Union Square','Union Square', 'East Village','Greenwich Village'] },
+    { name: 'Medical', locations: ['NoMad','Hudson Yards','Chelsea'] },
     { name: 'Specialty', subtypes: ['Schools', 'Industrial', 'Land'] },
-    { name: 'For Sale', subtypes: ['Condominiums', 'Cooperatives', 'Buildings'] }
+    { name: 'For Sale', subtypes: ['Condominiums', 'Cooperatives'] }
   ];
 
   neighborhoods: { [key: string]: string[] } = {
-    User: ['Upper East Side','Upper West Side','Inwood','Washington Heights','Manhattanville','Central Harlem','East Harlem', 'Midtown', 'Downtown'],
+    User: ['Upper East Side','Upper West Side','Inwood','Washington Heights','Manhattanville'],
     Brooklyn: ['Bushwick', 'Williamsburg', 'Park Slope'],
     Queens: ['Astoria', 'Flushing'],
     Other: ['Jersey City', 'Harlem']

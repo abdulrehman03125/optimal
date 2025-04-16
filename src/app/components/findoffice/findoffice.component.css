@@ -82,7 +82,7 @@ a:hover {
   position: absolute; /* Position submenu absolutely */
   top: 0; /* Align submenu to the top of the parent item */
   left: 100%; /* Position it to the right of the parent item */
-  margin-left: 5px; /* Add a little space between the parent and the submenu */
+  margin-right: 5px; /* Add a little space between the parent and the submenu */
 }
 
 .main-menu > li:hover > .submenu,
